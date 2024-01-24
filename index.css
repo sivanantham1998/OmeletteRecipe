@@ -1,0 +1,140 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    background-color: wheat;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5vh;
+    margin-bottom: 50px;;
+
+}
+
+@media screen and (max-width:5500px) {
+    .container
+    {
+        
+            /* margin: 90px; */
+            background-color: white;
+            border-radius: 30px;
+            width:750px ;
+    }
+    .box
+    {
+        display: flex;
+        justify-content: center;
+    }
+    img
+    {
+        margin: 35px;
+        border-radius: 25px;
+        width: 670px;
+        height: 300px;
+    }
+    .heading
+    {
+        margin: 35px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        /* font-family:'Times New Roman', Times, serif; */
+        font-size: 45px;
+        color: rgb(46, 45, 45);
+    }
+    .para1
+    {
+        font-size: 2.5vh;
+        /* font-family: 'Montserrat', sans-serif; */
+        margin: 35px;
+        line-height: 28px;
+        font-weight: lighter;
+    }
+    .duration
+    {
+        background-color: #F8EDFF;
+        margin-left: 50px;
+        margin-right: 50px;
+        border-radius:10px ;
+        height: 150px;
+        
+    }
+    .duration dl
+    {
+        line-height: 30px;
+        padding-top: 15px;
+        margin-left: 30px;
+        /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+        letter-spacing: 1.32px;
+    }
+    dt
+    {
+        font-size:x-large;
+        font-weight: bold;
+        color:blueviolet;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .Ingredients
+    {
+        margin-left: 30px;
+        margin-right: 50px;
+    }
+    .Ingredients h1
+    {
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .Ingredients li
+    {
+        line-height: 30px;
+    }
+    hr
+    {
+        width: 90%;
+    }
+    .instructions
+    {
+        margin-left: 30px;
+        margin-right: 50px;
+    }
+    .instructions h1
+    {
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .instructions li
+    {
+        line-height: 30px;
+
+    }
+    .Nutrition
+    {
+        margin-left: 30px;
+        
+    }
+    .Nutrition h1{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+
+    }
+    .Nutrition .table
+    {
+        margin-left: 40px;
+        margin-right: 50px;
+    }
+    table
+    {
+        width: 80%;
+    }
+    td
+    {
+        border-bottom: 1px solid gray;
+        padding: 15px;
+    }
+    .instructions h1,.Ingredients h1,.Nutrition h1
+    {
+        color: rgb(181, 89, 89);
+    }
+    
+    
+}
+
+
